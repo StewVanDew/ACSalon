@@ -1,0 +1,43 @@
+*, a:focus {
+    outline: medium none !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #fff;
+    color: #666;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0;
+    min-width: 320px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.navigation li a {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: transparent;
+    color: inherit;
+    -webkit-transition: color .5s, background-color .5s;
+    transition: color .5s, background-color .5s;
+}
+.navigation li a:hover {
+    color: #FFA500;
+    background-color: rgba(255, 165, 0, 0.15);
+}
