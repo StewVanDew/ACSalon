@@ -19,17 +19,12 @@ html {
 body {
     background-color: #fff;
     color: #666;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    line-height: 16px;
-    margin: 0;
-    min-width: 320px;
-    overflow: hidden;
+    height: 100%;
     width: 100%;
 }
 
 .navigation li a {
-    font-weight: bold;
+    font-weight: lighter;
     text-transform: uppercase;
     text-decoration: none;
     background-color: transparent;
@@ -40,4 +35,17 @@ body {
 .navigation li a:hover {
     color: #FFA500;
     background-color: rgba(255, 165, 0, 0.15);
+}
+
+#banner {
+    margin-top: 50px;
+    position: relative;
+    padding: 12em 0;
+    background: url(http://lorempixel.com/1920/1080/) no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+
+#mainFeatures img {
+    padding: 15px 15px 1px 0;
 }
