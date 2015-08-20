@@ -28,3 +28,16 @@ var navigation =
     "</nav>";
 
 $('#navigation').replaceWith(navigation);
+
+
+var footer =
+    "<footer id='footer' class='container-fluid'>" +
+        "<div class='row'>" +
+            "<div class='col-xs-12 center-block'>" +
+                "<br>" +
+                "<p class='text-center'>Produced by: <a href='http://jodakwebsolutions.com'>Jodak Web Solutions</a></p>" +
+            "</div>" +
+        "</div>" +
+    "</footer>";
+
+$('#footer').replaceWith(footer);
