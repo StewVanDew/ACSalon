@@ -12,7 +12,7 @@ var navigation =
                     "<span class='icon-bar'></span>" +
                     "<span class='icon-bar'></span>" +
                 "</button>" +
-                "<a class='navbar-brand' href='#'>ACS<i class='vl'></i>AC Salon and Spa</a>" +
+                "<a class='navbar-brand' href='#'>AC Salon and Spa</a>" +
             "</div>" +
             "<div id='navbar' class='navbar-collapse collapse'>" +
                 "<ul class='nav navbar-nav navbar-right navigation'>" +
@@ -27,9 +27,6 @@ var navigation =
         "</div>" +
     "</nav>";
 
-$('#navigation').replaceWith(navigation);
-
-
 var footer =
     "<footer id='footer' class='container-fluid'>" +
         "<div class='row'>" +
@@ -41,3 +38,5 @@ var footer =
     "</footer>";
 
 $('#footer').replaceWith(footer);
+$('#navigation').replaceWith(navigation);
+
